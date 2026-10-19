@@ -43,3 +43,7 @@ Testing two different landing pages for a newly built website with intermittent 
 ![alt text](image-8.png)
 
 ## WHY RUN EXPERIMENTS?
+![alt text](image-9.png)
+
+## hierarchy of evidence
+![alt text](image-10.png)
