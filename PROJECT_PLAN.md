@@ -167,25 +167,31 @@ Create this structure incrementally as each phase is implemented; it is a target
 
 ```text
 .
+├── .github/
+│   └── workflows/
+│       └── data_pipeline_ci.yml    # automated checks; add as implementation begins
 ├── README.md
-├── pyproject.toml                 # dependencies and development/test configuration
+├── pyproject.toml                 # project metadata and dependencies (uv.lock is committed)
 ├── configs/
-│   └── experiment.json            # pre-specified assumptions and design
+│   └── experiment.yaml            # pre-specified assumptions and design
 ├── data/
-│   ├── generated/                 # reproducible synthetic data; document tracking policy
-│   └── reports/                   # generated tables and summaries
+│   ├── external/                  # optional documented schemas/references; no real data required
+│   ├── processed/                 # validated analysis-ready dataset
+│   └── raw/                       # generated synthetic event data; ignored if large
 ├── notebooks/
-│   └── exploration.ipynb          # optional, exploratory work only
+│   ├── 01_power_analysis.ipynb
+│   ├── 02_eda_and_sanity_checks.ipynb
+│   └── 03_statistical_inference.ipynb
 ├── src/
-│   └── ab_test/
+│   └── a_b_test_analysis_for_a_simulated_product_feature/
+│       ├── assignment.py
 │       ├── simulate.py
-│       ├── validate.py
+│       ├── quality.py
 │       ├── metrics.py
 │       └── analyze.py
 ├── tests/
-│   ├── test_simulate.py
-│   ├── test_validate.py
-│   └── test_metrics.py
+│   ├── test_assignment.py
+│   └── test_stats.py
 └── reports/
     ├── experiment_plan.md          # pre-analysis plan
     ├── decision_memo.md

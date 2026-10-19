@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated raw simulation data can be regenerated from the configured seed.
+data/raw/*
+!data/raw/.gitkeep
