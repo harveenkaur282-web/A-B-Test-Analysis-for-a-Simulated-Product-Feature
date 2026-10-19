@@ -2,9 +2,9 @@
 
 ## Project brief
 
-**Scenario:** An e-commerce platform tests an AI-driven product recommendation widget on the cart page against the current generic top-selling-items list.
+**Scenario:** An e-commerce platform tests an AI-driven product recommendation widget on the cart page and the current generic top-selling-items list.
 
-**Business question:** Does showing personalized cart recommendations increase revenue per eligible cart, by improving cart conversion and/or the value of completed orders, without harming customer or business guardrails?
+**Business question:** Does showing personalized cart recommendations increase revenue per eligible cart, by improving cart conversion and/or the value of completed orders, without harming customer(in terms of their experience?) or business guardrails?
 
 This project will demonstrate the full lifecycle of a controlled experiment: defining a decision, designing a statistically sound test, generating reproducible simulated data, validating it, analyzing outcomes, and communicating a launch recommendation.
 
