@@ -25,4 +25,21 @@ Random selection vs Random assignment:
 ## Python example of random assignment- checkout dataset
 experiment ran on different checkout page designs to evaluate their impact on users' purchases. 
 ![alt text](image-3.png)
+Gender split:
+![alt text](image-4.png)
+![alt text](image-5.png)
 
+## Exercise 1
+New websites usually have limited traffic which reduces our chances of reaching conclusive results.
+
+Testing two different landing pages for a newly built website with intermittent and unpredictable traffic. A/B test not the best.
+
+![alt text](image-6.png)
+
+## Logical flow of A/B process
+![alt text](image-7.png)
+
+## exercise 2
+![alt text](image-8.png)
+
+## WHY RUN EXPERIMENTS?
